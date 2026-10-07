@@ -1,0 +1,31 @@
+<!doctype html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>SavinYa – Buy smarter. Save more.</title>
+<meta name="description" content="SavinYa tells you whether a price is actually good, whether to buy or wait, and where it's cheaper.">
+<meta name="theme-color" content="#6C4BF4">
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=DM+Sans:wght@400;500;700&family=Plus+Jakarta+Sans:wght@500;700;800&display=swap" rel="stylesheet">
+<link rel="stylesheet" href="css/styles.css">
+</head>
+<body>
+<a class="skip" href="#main">Skip to content</a>
+<header class="top">
+  <a class="logo" href="#/" aria-label="SavinYa home">Savin<span>Ya</span></a>
+  <nav aria-label="Main">
+    <a href="#/search" data-nav="search">Search</a>
+    <a href="#/wishlist" data-nav="wishlist">Wishlist <b id="wl-count" hidden></b></a>
+    <a href="#/calendar" data-nav="calendar">Calendar</a>
+  </nav>
+</header>
+<div class="demo-bar" id="demo-bar"></div>
+<main id="main" tabindex="-1"></main>
+<div id="toast" role="status" aria-live="polite"></div>
+<footer class="foot">SavinYa gives estimates from past prices, not guarantees. Always check the retailer's page before you buy.</footer>
+<noscript><p style="padding:1rem">SavinYa needs JavaScript to run.</p></noscript>
+<script type="module" src="js/app.js"></script>
+</body>
+</html>
